@@ -31,8 +31,7 @@ public class Factura extends JFrame{
                 Double precioIngresado = Double.parseDouble(precio.getText());
                 Integer cantidadIngresada = Integer.parseInt(cantidad.getText());
                 Double  subtotal = precioIngresado * cantidadIngresada;
-                //JOptionPane.showMessageDialog(null, "Subtotal: " + subtotal);
-                //subtotal.setText("Subtotal: " + subtotal);
+
                 total.setText(subtotal.toString());
                 /*
                  Double n1 = Double.parseDouble(numero1.getText());

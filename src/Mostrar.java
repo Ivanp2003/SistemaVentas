@@ -14,10 +14,6 @@ public class Mostrar extends JFrame{
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
 
-        /*Mostrar mostrar = new Mostrar();
-        mostrar.setCodigoIngresado(codigoIngresado);
-*/
-
 
         REGRESARButton.addActionListener(new ActionListener() {
             @Override
