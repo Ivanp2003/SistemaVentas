@@ -10,8 +10,8 @@ public class Factura extends JFrame{
     private JTextField producto;
     private JTextField precio;
     private JTextField cantidad;
-    private JTextField subtotal;
-    private JTextField total;
+    private JTextField total1;
+    private JTextField subtotal1;
 
     public Factura(){
         setContentPane(factura);
@@ -32,13 +32,12 @@ public class Factura extends JFrame{
                 Integer cantidadIngresada = Integer.parseInt(cantidad.getText());
                 Double  subtotal = precioIngresado * cantidadIngresada;
 
-                total.setText(subtotal.toString());
-                /*
-                 Double n1 = Double.parseDouble(numero1.getText());
-                Double n2 = Double.parseDouble(numero2.getText());
-                Double resultado = n1 * n2;
-                JOptionPane.showMessageDialog(null, resultado);
-                 */
+                subtotal.toString();
+                subtotal1.setText(subtotal.toString());
+
+                Double total = (subtotal *0.15)+subtotal;
+                total1.setText(total.toString());
+
             }
         });
 
